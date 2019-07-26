@@ -1,0 +1,35 @@
+{
+  "name": "openshift-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "start-storybook -s ./design/static -p 6006",
+    "build": "build-storybook",
+    "deploy": "gh-pages -d storybook-static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rh-uxd/openshift-storybook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rh-uxd/openshift-storybook/issues"
+  },
+  "homepage": "https://github.com/rh-uxd/openshift-storybook#readme",
+  "dependencies": {
+    "@patternfly/patternfly": "^2.23.0",
+    "@patternfly/react-core": "^3.75.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "babel-loader": "^8.0.6",
+    "gh-pages": "^2.0.1",
+    "react-markdown": "^4.1.0"
+  }
+}
