@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import ReactMarkdown from 'react-markdown';
-import '@patternfly/patternfly/patternfly-base.css';
+import '@patternfly/patternfly/patternfly.css';
 import './index.css';
 
 import { Title, Button } from '@patternfly/react-core';
