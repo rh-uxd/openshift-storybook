@@ -9,6 +9,7 @@ import './index.css';
 
 import { Title, Button } from '@patternfly/react-core';
 import ButtonDesign from '../design/button.md';
+import CreatingDesign from '../design/creating-editing.md';
 
 storiesOf('Welcome', module).add('to Storybook', () => (
   <div className="pf-c-content content">
@@ -26,3 +27,7 @@ storiesOf('Button', module)
       <Button onClick={action('clicked')}>Hello Button</Button>
     </div>
   ))
+
+  storiesOf('Creating, Editing, Deleting', module)
+  .add('design', () => <div className="pf-c-content content"><ReactMarkdown source={CreatingDesign} /></div>)
+  
