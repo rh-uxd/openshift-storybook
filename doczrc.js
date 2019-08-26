@@ -1,6 +1,7 @@
 // https://www.docz.site/docs/project-configuration
 // https://github.com/pedronauck/docz/issues/793
 export default {
+  base: process.env.CI ? '/openshift-storybook/' : '',
   menu: [
     'Getting Started',
     { name: 'CRUD Operations' },
