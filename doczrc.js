@@ -3,7 +3,7 @@
 export default {
   menu: [
     'Getting Started',
-    { name: 'CRUD Operations' },
+    { name: 'Create, edit, delete' },
     { name: 'Views' },
     { name: 'Indicators' },
     { name: 'Metrics' },
