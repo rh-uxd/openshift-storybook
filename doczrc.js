@@ -3,11 +3,9 @@
 export default {
   menu: [
     'Getting Started',
-    { name: 'Create, edit, delete' },
+    { name: 'Navigation' },
+    { name: 'User editing' },
     { name: 'Views' },
     { name: 'Indicators' },
-    { name: 'Metrics' },
-    { name: 'Navigation' },
-    { name: 'Misc' },
   ]
 }
