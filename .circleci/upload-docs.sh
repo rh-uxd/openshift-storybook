@@ -20,9 +20,9 @@ else
 fi
 
 DEPLOY_DOMAIN="https://${DEPLOY_SUBDOMAIN}.surge.sh"
-npx surge --project docs --domain $DEPLOY_DOMAIN;
+npx surge --project public --domain $DEPLOY_DOMAIN;
 
-if [ -n "${PR_NUM}" ] # && [ -z "${ALREADY_DEPLOYED}" ] # Leave a Github comment
+if [ -n "${PR_NUM}" ] && [ -z "${ALREADY_DEPLOYED}" ] # Leave a Github comment
 then
   # Use Issues api instead of PR api because
   # PR api requires comments be made on specific files of specific commits
